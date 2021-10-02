@@ -1100,3 +1100,33 @@ nav>.mainNav>.eles>li>a>.title {}
     width: 50%;
     height: 70vh;
 }
+
+@media screen and (max-width:683px) {
+    .about_caracteristique>ul {
+        flex-direction: column;
+    }
+    .about_caracteristique>ul>li {
+        margin-bottom: 30px;
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:683px) {
+    .about_performance>li {
+        flex-direction: column;
+    }
+    .about_performance>li:nth-child(odd) {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+    }
+    .about_performance>li:nth-child(even) {
+        flex-direction: column;
+        clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+    }
+    .about_performance>li>.first {
+        width: 100%;
+    }
+    .about_performance>li>.img {
+        width: 100%;
+    }
+}

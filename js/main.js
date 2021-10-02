@@ -1,5 +1,5 @@
 setTimeout(() => {
-    //document.location.reload();
+    document.location.reload();
 }, 1000)
 
 
