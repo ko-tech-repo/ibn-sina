@@ -921,33 +921,54 @@ nav>.mainNav>.eles>li>a>.title {}
     }
 }
 
-.header_about {
+.header_about,
+.header_eleves,
+.header_activite {
     background-image: url("../assets/ecole.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: bottom;
+    background-position: bottom right;
     width: 100%;
     height: Calc(100vh - 135px);
 }
 
-.header_about>div {
-    background-color: rgba(89, 185, 89, 0.08);
+.header_eleves {
+    background-image: url("../assets/nos_eleves.jpg");
+}
+
+.header_about {
+    background-image: url("../assets/ecole.png");
+}
+
+.header_activite {
+    background-image: url("../assets/activite.jpg");
+}
+
+.header_about>div,
+.header_activite>div,
+.header_eleves>div {
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
     position: relative;
 }
 
-.header_about>div>.title {
+.header_about>div>.title,
+.header_activite>div>.title,
+.header_eleves>div>.title {
     position: absolute;
     color: var(--color-success);
-    font-weight: 400;
+    font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     bottom: Calc(10% + 40px);
     left: 20px;
+    text-decoration: 4px underline;
 }
 
-.header_about>div>.sousTitle {
+.header_about>div>.sousTitle,
+.header_activite>div>.sousTitle,
+.header_eleves>div>.sousTitle {
     bottom: 10%;
     left: 20px;
     position: absolute;

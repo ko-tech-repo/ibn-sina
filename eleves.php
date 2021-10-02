@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="icon" href="./assets/logo.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="./styles/style.css"  />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
     <title>Nos élèves | Ibn Sina</title>
 </head>
 
 <body>
     <?php include("./components/nav.php"); ?>
-    
-
+    <?php include("./components/header_eleves.php"); ?>
 
     <?php include("./components/footer.php"); ?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
