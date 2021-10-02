@@ -1003,7 +1003,7 @@ nav>.mainNav>.eles>li>a>.title {}
 }
 
 .sousHeader_about>.histoire>.second {
-    width: 80%;
+    width: 75%;
     margin-top: 40px;
     font-style: italic;
     font-size: 18px;
@@ -1131,4 +1131,61 @@ nav>.mainNav>.eles>li>a>.title {}
     .about_performance>li>.img {
         width: 100%;
     }
+}
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact_form>.title {
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--color-success);
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.contact_form>.sousTitle {
+    font-size: 18px;
+    font-weight: 800;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.contact_form>.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+}
+
+.contact_form>.inputs>input {
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.contact_form>.inputs>textarea {
+    width: 80%;
+    height: 13vh;
+    margin-bottom: 20px;
+}
+
+.contact_form>.submitBtn {
+    width: 80%;
+    height: 30px;
+    max-width: 720px;
+    color: #fff;
+    font-weight: bold;
+    background: var(--color-success);
+    cursor: pointer;
+    border: none;
 }

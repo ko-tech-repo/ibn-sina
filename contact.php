@@ -14,8 +14,18 @@
 
 <body>
     <?php include("./components/nav.php"); ?>
-    
 
+    <form class="contact_form">
+        <p class="title">LEAVE US YOUR INFO</p>
+        <p class="sousTitle">AND WE WILL GET BACK TO YOU.</p>
+        <div class="inputs">
+            <input type="text" placeholder="Nom et prénom*" required />
+            <input type="email" placeholder="Email*" required />
+            <input type="text" placeholder="Sujet*" required />
+            <textarea placeholder="Message*" required ></textarea>
+        </div>
+        <input type="submit" class="submitBtn" value="Submit" name="formSubmit"/>
+    </form>
 
     <?php include("./components/footer.php"); ?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
