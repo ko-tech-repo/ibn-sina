@@ -1,3 +1,14 @@
+<?php
+if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
+    $url = "https://";
+else
+    $url = "http://";
+// Append the host(domain name, ip) to the URL.   
+$url .= $_SERVER['HTTP_HOST'];
+
+// Append the requested resource location to the URL   
+$url .= $_SERVER['REQUEST_URI'];
+?>
 <nav>
     <div class="subNav">
         <ul class="left">
@@ -27,31 +38,31 @@
         <label for="idCHeckMenu"><i class="icon bi bi-list"></i></label>
         <label class="iconXlabel" for="idCHeckMenu"><i class="bi bi-x"></i></label>
         <ul class="eles listEleMenu">
-            <li class="<?php echo str_contains($_SERVER['REQUEST_URI'],"php")?'':'active' ?>">
+            <li class="<?php echo str_contains($url, "php") ? '' : 'active' ?>">
                 <a href="./">
                     <i class="icon bi bi-house"></i>
                     <p class="title">Home</p>
                 </a>
             </li>
-            <li class="<?php echo str_contains($_SERVER['REQUEST_URI'],"about")?'active':'' ?>">
+            <li class="<?php echo str_contains($url, "about") ? 'active' : '' ?>">
                 <a href="./about.php">
                     <i class="icon bi bi-blockquote-left"></i>
                     <p class="title">About</p>
                 </a>
             </li>
-            <li class="<?php echo str_contains($_SERVER['REQUEST_URI'],"eleves")?'active':'' ?>">
+            <li class="<?php echo str_contains($url, "eleves") ? 'active' : '' ?>">
                 <a href="./eleves.php">
                     <i class="icon bi bi-award-fill"></i>
                     <p class="title">Nos élèves</p>
                 </a>
             </li>
-            <li class="<?php echo str_contains($_SERVER['REQUEST_URI'],"activite")?'active':'' ?>">
+            <li class="<?php echo str_contains($url, "activite") ? 'active' : '' ?>">
                 <a href="./activite.php">
                     <i class="icon bi bi-subtract"></i>
                     <p class="title">Nos activités</p>
                 </a>
             </li>
-            <li class="<?php echo str_contains($_SERVER['REQUEST_URI'],"contact")?'active':'' ?>">
+            <li class="<?php echo str_contains($url, "contact") ? 'active' : '' ?>">
                 <a href="./contact.php">
                     <i class="icon bi bi-person-lines-fill"></i>
                     <p class="title">Contact</p>
