@@ -17,23 +17,23 @@
     <?php include("./components/header_eleves.php"); ?>
 
     <ul class="listPhoto">
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/1.jpg')"><img src="http://localhost/ibn-sina/assets/promo/1.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/2.jpg')"><img src="http://localhost/ibn-sina/assets/promo/2.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/3.jpg')"><img src="http://localhost/ibn-sina/assets/promo/3.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/4.jpg')"><img src="http://localhost/ibn-sina/assets/promo/4.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/5.jpg')"><img src="http://localhost/ibn-sina/assets/promo/5.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/6.jpg')"><img src="http://localhost/ibn-sina/assets/promo/6.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/7.jpg')"><img src="http://localhost/ibn-sina/assets/promo/7.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/8.jpg')"><img src="http://localhost/ibn-sina/assets/promo/8.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/9.jpg')"><img src="http://localhost/ibn-sina/assets/promo/9.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/10.jpg')"><img src="http://localhost/ibn-sina/assets/promo/10.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/11.jpg')"><img src="http://localhost/ibn-sina/assets/promo/11.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/12.jpg')"><img src="http://localhost/ibn-sina/assets/promo/12.jpg" /></li>
-        <li onclick="show('http://localhost/ibn-sina/assets/promo/13.jpg')"><img src="http://localhost/ibn-sina/assets/promo/13.jpg" /></li>
+        <li onclick="show('./assets/promo/1.jpg')"><img src="./assets/promo/1.jpg" /></li>
+        <li onclick="show('./assets/promo/2.jpg')"><img src="./assets/promo/2.jpg" /></li>
+        <li onclick="show('./assets/promo/3.jpg')"><img src="./assets/promo/3.jpg" /></li>
+        <li onclick="show('./assets/promo/4.jpg')"><img src="./assets/promo/4.jpg" /></li>
+        <li onclick="show('./assets/promo/5.jpg')"><img src="./assets/promo/5.jpg" /></li>
+        <li onclick="show('./assets/promo/6.jpg')"><img src="./assets/promo/6.jpg" /></li>
+        <li onclick="show('./assets/promo/7.jpg')"><img src="./assets/promo/7.jpg" /></li>
+        <li onclick="show('./assets/promo/8.jpg')"><img src="./assets/promo/8.jpg" /></li>
+        <li onclick="show('./assets/promo/9.jpg')"><img src="./assets/promo/9.jpg" /></li>
+        <li onclick="show('./assets/promo/10.jpg')"><img src="./assets/promo/10.jpg" /></li>
+        <li onclick="show('./assets/promo/11.jpg')"><img src="./assets/promo/11.jpg" /></li>
+        <li onclick="show('./assets/promo/12.jpg')"><img src="./assets/promo/12.jpg" /></li>
+        <li onclick="show('./assets/promo/13.jpg')"><img src="./assets/promo/13.jpg" /></li>
     </ul>
     <div id="idshowPicture" class="showPicture displayNone">
         <button onclick="cacheimage()" ><i class="bi bi-x"></i></button>
-        <img src="http://localhost/ibn-sina/assets/promo/1.jpg" id="imagetoshow" />
+        <img src="./assets/promo/1.jpg" id="imagetoshow" />
     </div>
     <?php include("./components/footer.php"); ?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
