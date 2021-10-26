@@ -1,3 +1,8 @@
+<?php
+    if(!isset($_COOKIE["userConnected"])){
+        header("Location: index.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,18 +14,12 @@
     <link rel="icon" href="./assets/logo.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
-    <title>Nos élèves | Ibn Sina</title>
+    <title>dashboard | Ibn Sina</title>
 </head>
 
 <body>
     <?php include("./components/nav.php"); ?>
-    <?php include("./components/header_eleves.php"); ?>
-    <div class="instructorSection" style="background-color:white;">
-        <br>
-        <p class="title">Laureats :</p>
-        <br><br><br>
-    </div>
-    
+
     <?php include("./components/footer.php"); ?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>

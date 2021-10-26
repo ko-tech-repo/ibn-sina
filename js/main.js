@@ -18,7 +18,7 @@ const setCounter = (id, current, max, aug) => {
         ele.innerHTML = max + "+";
     }
 }
-setCounter("laureatsCounter", 0, 4999, 100);
-setCounter("awardsCounter", 0, 25, 1);
 setCounter("studentsCounter", 0, 5000, 100);
 setCounter("teachersCounter", 0, 200, 5);
+setCounter("awardsCounter", 0, 3, 1);
+setCounter("laureatsCounter", 0, 4999, 100);

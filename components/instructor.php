@@ -1,6 +1,6 @@
 <div class="instructorSection">
-    <p class="title">INSTRUCTOR</p>
-    <p class="sousTitle">We have one of the expert instructor in morocco.</p>
+    <p class="title">Enseignants</p>
+    <p class="sousTitle">Nous avons l'un des instructeurs experts au Maroc.</p>
     <ul class="listInst">
        <li>
            <img alt="" class="imgInst" src="./assets/teachers/1.jpg" />

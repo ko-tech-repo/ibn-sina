@@ -8,11 +8,11 @@
             </li>
             <li>
                 <i class="bi icon bi-envelope"></i>
-                <p class="text">Contact@emi.ac.ma</p>
+                <p class="text">Ibnsinaschools@hotmail.com</p>
             </li>
             <li>
                 <i class="bi icon bi-telephone"></i>
-                <p class="text">+212 762-818251</p>
+                <p class="text">05366-83183</p>
             </li>
         </ul>
     </div>

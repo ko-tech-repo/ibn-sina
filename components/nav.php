@@ -14,16 +14,29 @@ $url .= $_SERVER['REQUEST_URI'];
         <ul class="left">
             <li>
                 <i class="icon bi bi-envelope"></i>
-                <p class="text">Contact@emi.ac.ma</p>
+                <p class="text">ibnsinaschools@hotmail.com</p>
             </li>
             <li>
                 <i class="icon bi bi-telephone"></i>
-                <p class="text">+1-3435-2356-222</p>
+                <p class="text">05366-83183</p>
             </li>
         </ul>
-        <a class="right" href="./login.php">
-            <p class="text">Login</p>
-        </a>
+        <?php
+        if (!isset($_COOKIE["userConnected"])) {
+        ?>
+            <a class="right" href="./login.php">
+                <p class="text">Login</p>
+            </a>
+        <?php
+        } else {
+        ?>
+            <a class="right" href="./dashboard.php">
+                <p class="text">Dashboard</p>
+            </a>
+        <?php
+        }
+        ?>
+
     </div>
     <div class="mainNav">
         <a href="./" class="logo">

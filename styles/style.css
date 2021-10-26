@@ -278,8 +278,15 @@ nav>.mainNav>.eles>li>a>.title {}
     font-size: 30px;
 }
 
+.nameTitle {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .motsDirectionSection>.right>.title::after {
-    content: " Ahmed Kamal";
+    content: "";
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -1209,4 +1216,9 @@ nav>.mainNav>.eles>li>a>.title {}
     background: var(--color-success);
     cursor: pointer;
     border: none;
+}
+
+.erropassword {
+    color: red;
+    font-weight: bold;
 }
