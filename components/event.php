@@ -40,7 +40,7 @@ if ($result->num_rows == 0) {
                                     </div>
                                     <div class="ele">
                                         <i class="icon bi bi-geo-alt"></i>
-                                        <p class="content"><?php echo $row["title"]; ?>l</p>
+                                        <p class="content"><?php echo $row["place"]; ?>l</p>
                                     </div>
                                 </div>
                             </div>
@@ -50,10 +50,10 @@ if ($result->num_rows == 0) {
                     ?>
 
                 </ul>
-                <a href="./" class="getMore">
+                <!---<a href="./" class="getMore">
                     <p class="title">View All</p>
                     <i class="icon bi bi-arrow-right"></i>
-                </a>
+                </a>---->
             </div>
             <div class="third">
                 <i class="bi bi-envelope-fill icon"></i>

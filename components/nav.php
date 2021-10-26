@@ -66,7 +66,7 @@ $url .= $_SERVER['REQUEST_URI'];
             <li class="<?php echo str_contains($url, "eleves") ? 'active' : '' ?>">
                 <a href="./eleves.php">
                     <i class="icon bi bi-award-fill"></i>
-                    <p class="title">Nos élèves</p>
+                    <p class="title">Gallery</p>
                 </a>
             </li>
             <li class="<?php echo str_contains($url, "activite") ? 'active' : '' ?>">

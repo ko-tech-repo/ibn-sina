@@ -16,7 +16,17 @@
             <img src="./assets/logo.png" class="imgEcole" />
         </div>
         <div class="second">
-            Le Groupe Madaris Ibn Sina PRIVEE a su évoluer depuis sa fondation et elle continue de le faire. Notre préoccupation étant centrée sur les élèves et leurs besoins, les services mis en place, l’appui pédagogique offert et les activités sportives et culturelles développées, indiquent bien que nous sommes soucieux des jeunes d’aujourd’hui et de leur réalité. Favorisant la transmission des valeurs importantes de notre communauté, l’école désire, aujourd’hui et pour demain, poursuivre son évolution vers une approche bien adaptée aux besoins de sa clientèle et se doter de ressources toujours plus performantes pour la satisfaire.
+            Le Groupe Madaris Ibn Sina est une école ouverte à tous dans le respect des différences.
+Une école accueillante et bienveillante, attentive à chacun, dans un cadre structurant.
+Depuis plusieurs années, nous avançons avec les élèves à travers nos lignes directrices qui sont l’écologie et l’ouverture à l’international. Elles resteront pour nous une priorité afin que les élèves puissent construire leur propre identité d’éco-citoyen du monde. Notre mission est également d’accueillir chaque enfant tel qu’il est, d’accueillir chaque famille et d’être en lien avec elle pour créer un véritable climat de confiance dans l’éducation de son(ses) enfant(s).
+
+Travailler ensemble pour faire grandir chaque élève est pour nous essentiel et une collaboration entre enseignants, parents, enfants, personnels de l’école est indispensable. Nous désirons que tous les enfants acquièrent les savoirs, savoir-faire et savoir-être nécessaires pour préparer leur avenir.
+
+L’épanouissement de l’enfant est au cœur de notre projet d’école, pour qu’il vive pleinement le temps de son enfance et se construise un socle solide. Nous souhaitons vivement que chaque enfant soit heureux, épanoui, respectueux, responsable, autonome et ouvert aux autres, ouvert au monde extérieur, qu’il sache développer sa confiance en lui et son goût de l’effort.
+
+Dans sa classe, dans l’école, pour des enfants d’ici ou d’ailleurs, nous cultivons l’esprit d’entraide, la solidarité et le partage.
+
+Toute l’équipe éducative de l’école, les enseignants, le personnel et moi-même, vous souhaite une très bonne année scolaire à tous !
         </div>
     </div>
 </div>
@@ -25,7 +35,7 @@
         <li>
             <img src="./assets/icons/philo.png" class="img" />
             <p class="title">Notre philosophie</p>
-            <p class="description">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
+            <p class="description">Ensemble vers un meilleur avenir</p>
         </li>
         <li>
             <img src="./assets/icons/principe.png" class="img" />
